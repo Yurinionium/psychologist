@@ -115,6 +115,8 @@
   opacity: 1;
   margin: 0 auto;
   padding: 28px 0 17px 0;
+  position: relative;
+  z-index: 1000;
 }
 
 .header__link-item {
@@ -135,7 +137,7 @@
 .nav {
   display: flex;
   position: relative;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .header__width {
@@ -496,7 +498,7 @@
 .calc {
   margin: 15px auto 30px auto;
   position: relative;
-  z-index: 2000;
+  z-index: 3;
   min-height: 400px;
 }
 
