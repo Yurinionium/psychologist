@@ -1,0 +1,137 @@
+.cover {
+    position: relative;
+    min-height: 532px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cover__img {
+    width: 393px;
+    height: 532px;
+    object-fit: cover;
+}
+
+.cover__title {
+    max-width: 446px;
+    text-align: center;
+    @include font (400, 52px, 61px);
+    color: #29151C;
+    margin: 0;
+    font-family: 'Italiana';
+}
+.cover__text{
+    margin-top: 191px;
+    padding: 0 42px 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.cover__subtitle {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    @include font (400, 20px, 29px);
+    padding: 190px 0 0 0;
+    max-width: 276px;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    color: #77060C;
+}
+@media (max-width: 769px) {
+    .cover {
+        min-height: 446px;
+    }  
+    .cover__text{
+        margin-top: 191px;
+        padding: 0 42px 0 0;
+        position: relative;
+        z-index: 1;
+    }
+    .cover__subtitle {
+        padding: 50px 0 0 0;
+    }
+}
+@media (max-width: 520px) {
+    .cover {
+        min-height: 213px;
+    }
+
+}
+
+
+.about {
+    margin-top: 65px;
+    background: linear-gradient(0deg, rgba(138, 126, 101, 0.1), rgba(197, 193, 187, 0.266));
+    // background-color: #fff;
+}
+
+
+.title{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    color: #3E0E11;
+    padding: 40px 0 0 40px;
+}
+.line {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+}
+.line__long {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 830px;
+}
+.line__short {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 292px;
+}
+.about__container {
+    margin: 79px 42px 0 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about__container-text {
+    max-width: 500px;
+    height: 270px;
+    background-color:#3F3F3F;
+}
+.about__paragraph {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    background-color: aliceblue;
+    max-width: 434px;
+    padding: 21px 14px;
+    margin: 16px 20px 70px 20px;
+}
+.about__container-pic {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    padding-bottom: 85px;
+}
+.about__img {
+    width: 180px;
+    height: 200px;
+}
+
+.about__subtitle{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #611521;
+    padding-top: 32px;
+    text-align: center;
+}
